@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+body{
+    background-image: url("Lovers Image.jpg");
+    background-size: cover ;
+}
+header {
+    background-color: whitesmoke;
+    text-align: center;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+.love {
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+.extraname {
+    margin-top: 1rem;
+}
+.names {
+    padding: 10px;
+    text-align: center;
+    outline: none;
+    border: 2px solid #ff8484;
+    border-radius: 5px;
+    width: 17rem;
+}
+.plus {
+    margin: 0 3rem 0 3rem;
+    font-size: 1.3rem;
+}
+#love-btn {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-family: sans-serif;
+    width: 20rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+#lover-percent {
+    padding: 6px;
+    outline: none;
+    border: 2px solid #ff8484;
+    border-radius: 5px;
+    text-align: center;
+}
+.bless {
+    background-color: mistyrose;
+    padding: 10px;
+
+    font-family: sans-serif;
+}
